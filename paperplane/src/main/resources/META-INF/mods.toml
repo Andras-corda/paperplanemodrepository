@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+issueTrackerURL="https://github.com/VOTRE-UTILISATEUR/VOTRE-DEPOT/issues"
+
+[[mods]]
+modId="paperplane"
+version="${file.jarVersion}"
+displayName="Paper Plane"
+authors="R3tr0___"
+description='''
+bla bla bla
+'''
+logoFile="logo.png"        # doit se trouver à la racine des resources
+
+# Dépendance obligatoire à Forge
+[[dependencies.monmod]]
+    modId="forge"
+    type="required"
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# Dépendance obligatoire à Minecraft (verrouille la version du jeu)
+[[dependencies.monmod]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
