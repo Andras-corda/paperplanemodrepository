@@ -1,25 +1,42 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
+# ---- Sorties de build ----
+build/
+out/
+bin/
 
-# idea
-out
+# ---- Caches Gradle / Forge ----
+.gradle/
+# NE PAS ignorer gradle/wrapper/ : il est indispensable
+
+# ---- Instance de jeu de test ----
+run/
+runs/
+run-data/
+
+# ---- Datagen : cache seulement ----
+src/generated/resources/.cache/
+# Le reste de src/generated/resources/ : voir la décision d'équipe ci-dessous
+
+# ---- Logs ----
+logs/
+*.log
+
+# ---- IntelliJ IDEA ----
+.idea/
+*.iml
 *.ipr
 *.iws
-*.iml
-.idea
 
-# gradle
-build
-.gradle
+# ---- Eclipse ----
+.metadata/
+.classpath
+.project
+.settings/
+.apt_generated/
+*.launch
 
-# other
-eclipse
-run
+# ---- Visual Studio Code ----
+.vscode/
 
-# Files from Forge MDK
-forge*changelog.txt
+# ---- OS ----
+.DS_Store
+Thumbs.db
