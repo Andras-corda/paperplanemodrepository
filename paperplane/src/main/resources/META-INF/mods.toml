@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/VOTRE-UTILISATEUR/VOTRE-DEPOT/issues"
 
 [[mods]]
 modId="paperplane"
-version="${file.jarVersion}"
+version="${'$'}{file.jarVersion}"
 displayName="Paper Plane"
 authors="R3tr0___"
 description='''
