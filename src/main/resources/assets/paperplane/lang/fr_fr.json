@@ -1,6 +1,40 @@
 {
-    "item.paperplane.paper_plane": "Avion en papier",
-    "item.paperplane.explosive_paper_plane": "Avion en papier explosif",
+    "item.paperplane.red_paper_plane": "Avion en papier rouge",
+    "item.paperplane.orange_paper_plane": "Avion en papier orange",
+    "item.paperplane.yellow_paper_plane": "Avion en papier jaune",
+    "item.paperplane.lime_paper_plane": "Avion en papier vert lime",
+    "item.paperplane.green_paper_plane": "Avion en papier vert",
+    "item.paperplane.cyan_paper_plane": "Avion en papier cyan",
+    "item.paperplane.light_blue_paper_plane": "Avion en papier bleu clair",
+    "item.paperplane.blue_paper_plane": "Avion en papier bleu",
+    "item.paperplane.purple_paper_plane": "Avion en papier violet",
+    "item.paperplane.magenta_paper_plane": "Avion en papier magenta",
+    "item.paperplane.pink_paper_plane": "Avion en papier rose",
+    "item.paperplane.brown_paper_plane": "Avion en papier marron",
+    "item.paperplane.white_paper_plane": "Avion en papier blanc",
+    "item.paperplane.light_gray_paper_plane": "Avion en papier gris clair",
+    "item.paperplane.gray_paper_plane": "Avion en papier gris",
+    "item.paperplane.black_paper_plane": "Avion en papier noir",
 
-    "creative_tab.paperplane": "Avion en papier"
+    "item.paperplane.explosive_red_paper_plane": "Avion en papier explosif rouge",
+    "item.paperplane.explosive_orange_paper_plane": "Avion en papier explosif orange",
+    "item.paperplane.explosive_yellow_paper_plane": "Avion en papier explosif jaune",
+    "item.paperplane.explosive_lime_paper_plane": "Avion en papier explosif vert lime",
+    "item.paperplane.explosive_green_paper_plane": "Avion en papier explosif vert",
+    "item.paperplane.explosive_cyan_paper_plane": "Avion en papier explosif cyan",
+    "item.paperplane.explosive_light_blue_paper_plane": "Avion en papier explosif bleu clair",
+    "item.paperplane.explosive_blue_paper_plane": "Avion en papier explosif bleu",
+    "item.paperplane.explosive_purple_paper_plane": "Avion en papier explosif violet",
+    "item.paperplane.explosive_magenta_paper_plane": "Avion en papier explosif magenta",
+    "item.paperplane.explosive_pink_paper_plane": "Avion en papier explosif rose",
+    "item.paperplane.explosive_brown_paper_plane": "Avion en papier explosif marron",
+    "item.paperplane.explosive_white_paper_plane": "Avion en papier explosif blanc",
+    "item.paperplane.explosive_light_gray_paper_plane": "Avion en papier explosif gris clair",
+    "item.paperplane.explosive_gray_paper_plane": "Avion en papier explosif gris",
+    "item.paperplane.explosive_black_paper_plane": "Avion en papier explosif noir",
+
+    "creative_tab.paperplane": "Avion en papier",
+
+    "key.categories.paperplane": "Avion en papier",
+    "key.paperplane.exit_flight": "Quitter le vol"
 }

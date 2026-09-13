@@ -1,6 +1,7 @@
 package com.qbique.paperplane.registry;
 
 import com.qbique.paperplane.PaperPlane;
+import com.qbique.paperplane.entity.PaperPlaneEntity;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -13,10 +14,10 @@ public class ModEntities {
         ForgeRegistries.ENTITY_TYPES, PaperPlane.MODID
     );
 
-    public static final RegistryObject<EntityType<PaperPlane>> PAPER_PLANE 
+    public static final RegistryObject<EntityType<PaperPlaneEntity>> PAPER_PLANE
     = ENTITIES.register(
         "paper_plane", () -> EntityType.Builder.of(
-            PaperPlane::new, 
+            PaperPlaneEntity::new,
             MobCategory.MISC
         )
         .sized(0.6F, 0.2F)

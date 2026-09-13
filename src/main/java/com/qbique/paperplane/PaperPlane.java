@@ -1,7 +1,9 @@
 package com.qbique.paperplane;
 
 import com.mojang.logging.LogUtils;
+import com.qbique.paperplane.network.NetworkHandler;
 import com.qbique.paperplane.registry.ModCreativeTabs;
+import com.qbique.paperplane.registry.ModEntities;
 import com.qbique.paperplane.registry.ModItems;
 
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,6 +30,9 @@ public class PaperPlane {
         //
         ModCreativeTabs.CREATIVE_TABS.register(modEventBus); // Enregistrer les onglets créatifs du mod dans le bus d'événements du mod
         ModItems.register(modEventBus); // Enregistrer les items du mod dans le bus d'événements du mod
+        ModEntities.ENTITIES.register(modEventBus); // Enregistrer les entités du mod dans le bus d'événements du mod
+
+        NetworkHandler.register(); // Enregistrer le canal réseau (paquet de bascule de caméra)
 
 
 
@@ -43,8 +48,7 @@ public class PaperPlane {
     // Ajout d'éléments au menu créatif
     private void AddCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.PAPER_PLANE);
-            event.accept(ModItems.EXPLOSIVE_PAPER_PLANE);
+            ModItems.ALL_PAPER_PLANES.forEach(event::accept);
         }
     }
 

@@ -1,6 +1,40 @@
 {
-    "item.paperplane.paper_plane": "Paper Plane",
-    "item.paperplane.explosive_paper_plane": "Explosive Paper Plane",
-    
-    "creative_tab.paperplane": "Paper Plane"
+    "item.paperplane.red_paper_plane": "Red Paper Plane",
+    "item.paperplane.orange_paper_plane": "Orange Paper Plane",
+    "item.paperplane.yellow_paper_plane": "Yellow Paper Plane",
+    "item.paperplane.lime_paper_plane": "Lime Paper Plane",
+    "item.paperplane.green_paper_plane": "Green Paper Plane",
+    "item.paperplane.cyan_paper_plane": "Cyan Paper Plane",
+    "item.paperplane.light_blue_paper_plane": "Light Blue Paper Plane",
+    "item.paperplane.blue_paper_plane": "Blue Paper Plane",
+    "item.paperplane.purple_paper_plane": "Purple Paper Plane",
+    "item.paperplane.magenta_paper_plane": "Magenta Paper Plane",
+    "item.paperplane.pink_paper_plane": "Pink Paper Plane",
+    "item.paperplane.brown_paper_plane": "Brown Paper Plane",
+    "item.paperplane.white_paper_plane": "White Paper Plane",
+    "item.paperplane.light_gray_paper_plane": "Light Gray Paper Plane",
+    "item.paperplane.gray_paper_plane": "Gray Paper Plane",
+    "item.paperplane.black_paper_plane": "Black Paper Plane",
+
+    "item.paperplane.explosive_red_paper_plane": "Explosive Red Paper Plane",
+    "item.paperplane.explosive_orange_paper_plane": "Explosive Orange Paper Plane",
+    "item.paperplane.explosive_yellow_paper_plane": "Explosive Yellow Paper Plane",
+    "item.paperplane.explosive_lime_paper_plane": "Explosive Lime Paper Plane",
+    "item.paperplane.explosive_green_paper_plane": "Explosive Green Paper Plane",
+    "item.paperplane.explosive_cyan_paper_plane": "Explosive Cyan Paper Plane",
+    "item.paperplane.explosive_light_blue_paper_plane": "Explosive Light Blue Paper Plane",
+    "item.paperplane.explosive_blue_paper_plane": "Explosive Blue Paper Plane",
+    "item.paperplane.explosive_purple_paper_plane": "Explosive Purple Paper Plane",
+    "item.paperplane.explosive_magenta_paper_plane": "Explosive Magenta Paper Plane",
+    "item.paperplane.explosive_pink_paper_plane": "Explosive Pink Paper Plane",
+    "item.paperplane.explosive_brown_paper_plane": "Explosive Brown Paper Plane",
+    "item.paperplane.explosive_white_paper_plane": "Explosive White Paper Plane",
+    "item.paperplane.explosive_light_gray_paper_plane": "Explosive Light Gray Paper Plane",
+    "item.paperplane.explosive_gray_paper_plane": "Explosive Gray Paper Plane",
+    "item.paperplane.explosive_black_paper_plane": "Explosive Black Paper Plane",
+
+    "creative_tab.paperplane": "Paper Plane",
+
+    "key.categories.paperplane": "Paper Plane",
+    "key.paperplane.exit_flight": "Exit Flight"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#O#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "O": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "result": {
+    "item": "paperplane:light_gray_paper_plane",
+    "count": 3
+  }
+}

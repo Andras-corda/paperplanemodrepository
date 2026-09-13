@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#O#",
+    " . "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    },
+    ".": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "paperplane:explosive_orange_paper_plane",
+    "count": 3
+  }
+}
